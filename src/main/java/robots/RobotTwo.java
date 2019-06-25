@@ -9,10 +9,6 @@ public class RobotTwo extends RobotOne {
         this.bullets = bullets;
     }
 
-    private String getBullets() {
-        return bullets;
-    }
-
     public void shootByBullets() {
         System.out.println("I will shot with chocolate bullets!!!");
     }

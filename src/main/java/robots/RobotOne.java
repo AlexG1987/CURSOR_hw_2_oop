@@ -14,14 +14,6 @@ public class RobotOne {
         this.version = version;
     }
 
-    protected String getName() {
-        return name;
-    }
-
-    protected int getVersion() {
-        return version;
-    }
-
     public static void speak() {
         System.out.println("Hi friends, let's play!");
     }

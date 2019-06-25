@@ -9,10 +9,6 @@ public class RobotThree extends RobotTwo {
         this.bubblesAmount = bubblesAmount;
     }
 
-    protected int getBubblesAmount() {
-        return bubblesAmount;
-    }
-
     public void shootByBubbleBullets() {
         System.out.println("I will shoot with chocolate bubbles!!!");
     }
